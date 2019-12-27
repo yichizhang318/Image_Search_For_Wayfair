@@ -13,7 +13,7 @@ To build an app that is able to find most similar furniture carried by Wayfair.
 I scraped 14,839 images in total including 11 furniture categories from Wayfair.com using **Selenium** and **BeautifulSoup**. 
 
 Below briefly gives an idea about what each category looks like.
-![categories](img/categories.png) 
+![categories](img/categories.PNG) 
 
 Some very common furniture categories — such as sofas, sectionals, and console table — have thousands of products, while a few less popular categories — such as bean bag chairs, futons, and lounge sofa chairs — have as little as 400 products. Class imbalance impact will be tested after training the model.
 
@@ -30,11 +30,12 @@ After training completes, I extracted **Feature Vectors** from the model and use
 
 First, I want to see whether class imbalance has any influence to the model on learning each categories. To do so, I have generated **confusion matrix** below. 
 
-![confusion_matrix](img/confusion_matrix.png) 
+![confusion_matrix](img/confusion_matrix.PNG) 
 
 The confusion matrix clearly shows that model captures well on most of the categories, except lounge sofa chairs and sofa slipcovers, which are generally different types of sofas with slightly diffenert shapes. Therefore, accuracy and f1-macro score are effective to evaluate model performance. 
 
 Evaluation score on test images:
+
 | Metric   |  Score   |
 |----------|----------|
 | Accuracy |   0.826  |
@@ -49,7 +50,7 @@ Model classifies image as:  _**Chaise Lounge Sofa**_
 
 Most Similar Images Found By The Model:
 
-![test_result](img/test_result.png)
+![test_result](img/test_result.PNG)
 
 I'm happy to see that the model is able to capture the round one-side handle and curvy shape back with most similar colors.
 
@@ -57,7 +58,7 @@ I'm happy to see that the model is able to capture the round one-side handle and
 
 To display the result, I built an interface app prototype using Marvel which is shown below. 
 
-![app_flow](img/app_flow.png)
+![app_flow](img/app_flow.PNG)
 
 **Step 1: Home Page** 
 
