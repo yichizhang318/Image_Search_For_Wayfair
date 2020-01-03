@@ -10,7 +10,7 @@ To build an app that is able to find most similar furniture carried by Wayfair.
 
 ### Data Collection
 
-I scraped 14,839 images in total including 11 furniture categories from Wayfair.com using **Selenium** and **BeautifulSoup**. 
+I scraped 14,839 images in total, including 11 furniture categories, from Wayfair.com using **Selenium** and **BeautifulSoup**. 
 
 Below briefly gives an idea about what each category looks like.
 ![categories](img/categories.PNG) 
