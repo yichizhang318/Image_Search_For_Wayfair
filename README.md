@@ -68,7 +68,7 @@ If the user is not using the visual search button, he/she can also browse by pro
 
 **Step 2: Image Search Results**
 
-Once searching the image, the model first **classifies the input as one of the eleven categories**. **Within that defined category**, it calculates the cosine distance between vectors of the searched image and those of other images in the entire dataset, then returns top images with closest cosine distance. 
+Once searching the image, the model first **classifies the input as one of the eleven categories**. **Within that defined category**, it calculates the cosine distance between vectors of the searched image and those of other images in the entire dataset, then **returns top images with closest cosine distance**. 
 
 Due to space limitation of the app page, I choose to show only 4 product images. Each image is linked to its detailed product page.
 
